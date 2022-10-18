@@ -14,8 +14,8 @@ janela1 = Menu()
 ok=''
 while True:
     window, eventos, values = sg.read_all_windows()
-    minusculo = ('abcdefghijklmnopqrstuvwxyzáàãâêéèíìóòõôúùû1234567890!@#$%¨&*()_+=?/\"')
-    maiuscula = ('abcdefghijklmnopqrstuvwxyzáàãâêéèíìóòõôúùû1234567890!@#$%¨&*()_+=?/\"')
+    minusculo = ('abcdefghijklmnopqrstuvwxyzçáàãâêéèíìóòõôúùû1234567890!@#$%¨&*()_+=?/\"')
+    maiuscula = ('abcdefghijklmnopqrstuvwxyzçáàãâêéèíìóòõôúùû1234567890!@#$%¨&*()_+=?/\"')
     alfabeto = (minusculo) + maiuscula.upper()
     cripto = ''
     descripto = ''
